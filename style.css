@@ -1,0 +1,38 @@
+h1{
+    font-size: 70px;
+    color: darkblue;
+}
+img{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+h2{
+    font-size: 50px;
+    color: darkgreen;
+}
+input{
+    width: 800px;
+    border: double;
+    border-color: beige;
+    font-size: 40px;
+    margin-top: 20px; 
+    text-align: center;
+}
+label{
+    width:800px;
+    font-size: 40px;
+    display: inline-block;
+    text-align: left;
+}
+body{
+    background-color: lightyellow;
+}
+#btn1{
+    width: 200px;
+    height: 60px;
+    margin-top: 20px;
+    font-size: 30px;
+}

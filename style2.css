@@ -1,0 +1,39 @@
+#btn2{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 200px;
+    height: 80px;
+    background-color: orangered;
+    font-size: 40px;
+    border-radius: 7px;
+}
+img{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px;
+}
+h1{
+   color: blue;
+    font-size: 60px;
+    margin:40px;
+}
+body{
+    background: cyan;
+}
+label{
+    color: blue;
+    font-size: 20px;
+    margin:20px;
+    width: 700px;
+    height: 20px;
+}
+input{
+    font-size: 20px;
+    margin:20px;
+    width: 700px;
+    height: 20px;
+}

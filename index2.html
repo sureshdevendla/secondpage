@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style2.css">
+        <script src="main2.js"></script>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-database.js"></script>   
+    </head>
+    <body>
+        <center>
+        <a href="#"><button id="btn2" type="submit" >LogOut</button></a><br>
+        <h1>Redmi Home page</h1><br>
+        <img src="logo.png">
+        
+        <h3 id="user_name" class="color_white"></h3>
+        
+        <div class="form-group input_div_mnumber_page">
+            <label>Enter mobile number:</label><br>
+            <input type="text" id="m_number" class="form-control" placeholder="mobile number">
+        </div>    
+        
+        <button id="btn1" onclick="addnumber()">Save Number</button><br>    
+        <h3 class="color_white">Recent numbers</h3>
+            <div id="output"></div>
+    </center>
+    </body>
+</html>
